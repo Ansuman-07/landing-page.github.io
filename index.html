@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark" style="position: fixed;
+                                                    z-index: 101;
+                                                    width: 100vw; padding-right: 10px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="./brand-logo.webp" alt="Brand Logo" width="40" height="30" style="border-radius: 50%;">
+                    SmartTech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Trending
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Product 1 </a></li>
+                                <li><a class="dropdown-item" href="#">Product 2 </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Exclusive Offer </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                </div>
+            </div>
+        </nav><br>
+
+        <div id="carouselExampleCaptions" class="carousel slide" style="margin-top: 32px;" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./samsung-main.jpg" class="d-block w-100" alt="..." height="670">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="fw-bold .text-dark bg-black d-inline p-1 border-3 ">Check out Samsung S series</p><br>
+                        <div class="btn btn-primary m-1">Samsung S21</div>
+                        <div class="btn btn-warning">Best Deals</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./oneplus-main.jpg" class="d-block w-100" alt="clock 2"  height="670">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="fw-bold .text-dark bg-black d-inline p-1 border-3">Check out The new budget friendly One Plus NORD</p><br>
+                        <div class="btn btn-primary m-1">One plus Nord</div>
+                        <div class="btn btn-warning">Our Best Products</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./iphone-main.jpg" class="d-block w-100" alt="clock3" height="670">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="fw-bold .text-dark bg-black d-inline p-1 border-3">Checkout the newly released Iphone 14</p><br>
+                        <div class="btn btn-primary m-1">Other Iphones and Ipads</div>
+                        <div class="btn btn-warning">Trending</div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container text-center">
+            <div class="row row-cols-auto">
+                <div class="col">
+                    <div class="card mb-3 my-4 mx-4" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./samsun-card.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Samsung S21</h5>
+                                    <p class="card-text">
+                                        The Samsung Galaxy S21 is a pinnacle of innovation and style. Its striking design houses a 6.2-inch Dynamic AMOLED display, delivering vibrant visuals. Powered by an advanced processor, it offers lightning-fast performance and 5G connectivity.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 my-4 mx-4" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./iphone-card.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Iphone 14</h5>
+                                    <p class="card-text">Introducing the iPhone 14 – a technological marvel that pushes the boundaries of what a smartphone can do. With its gorgeous 6.5-inch ProMotion XDR display, powered by the lightning-fast A16 Bionic chip.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 my-4 mx-4" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./oneplus-card.webp" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">OnePlus NORD</h5>
+                                    <p class="card-text">The OnePlus Nord is the ultimate balance of affordability and excellence. Its sleek design, 6.44-inch Fluid AMOLED display, and powerful performance redefine mid-range smartphones. With a Snapdragon processor and generous RAM, it excels in multitasking and gaming.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 my-4 mx-4" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./vivo-card.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">ViVo V27</h5>
+                                    <p class="card-text"> Introducing the Vivo V27: a stunning smartphone that combines sleek design, a vibrant 6.5-inch Super AMOLED display, and powerful performance. With a 48MP main camera, long-lasting battery, and AI-enhanced features.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 1 hours ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
